@@ -1,0 +1,15 @@
+/* მეოთხე დავალება */
+h1 {
+  color: blue;
+  background-color: lightgray;
+}
+
+.same {
+  color: white;
+  background-color: green;
+}
+
+#unique {
+  color: yellow;
+  background-color: red;
+}
