@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    color: darkorange;
+    background-color: darkturquoise;
+    font-size: 32px;
+}
+
+p {
+    text-align: center;
+    color: cyan;
+    background-color: firebrick;
+    font-size: 16px;
+}

@@ -1,0 +1,17 @@
+h1 {
+    font-size: 32px;
+    color: brown;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    color: cornflowerblue;
+    background-color: crimson;
+}
+
+a {
+    text-align: center;
+}
