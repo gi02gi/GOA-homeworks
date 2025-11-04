@@ -1,0 +1,61 @@
+a {
+    width: 120px;
+    height: 120px;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#id1 a:hover {
+    border-color: red;
+    border-radius: 30px;
+}
+
+#id2 a:active {
+    border-color: navy;
+    border-radius: 20px;
+}
+
+#id3 a:hover {
+    border-color: green;
+    border-radius: 40px;
+}
+
+#id4 a:visited {
+    border-color: gold;
+    border-radius: 10px;
+}
+
+#id5 a:hover {
+  border-color: purple;
+  border-radius: 50%;
+}
+
+.btn1:hover {
+  background-color: red;
+  color: white;
+  border-radius: 25px;
+}
+
+.btn2:hover {
+  background-color: blue;
+  color: yellow;
+  border: 3px solid yellow;
+}
+
+.btn3:hover {
+  background-color: green;
+  color: white;
+}
+
+.btn4:hover {
+  background-color: orange;
+  color: black;
+  border-radius: 50px;
+}
+
+.btn5:hover {
+  background-color: purple;
+  color: white;
+  border: 3px dashed white;
+}
