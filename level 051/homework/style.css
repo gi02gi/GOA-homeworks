@@ -1,0 +1,35 @@
+/* pseudo selectors - სელექტორები რომელიც აკონტროლებს ელემნტის მდგომარეობას რაღაც მოვლენის მიხედვით */
+.link1:link {
+  color: red;
+}
+.link1:hover {
+  color: darkred;
+  text-decoration: underline;
+}
+.link1:active {
+  color: black;
+}
+
+.link2:link {
+  color: green;
+  text-decoration: overline;
+}
+.link2:hover {
+  color: lime;
+  text-decoration: underline;
+}
+.link2:active {
+  color: darkgreen;
+}
+
+.link3:link {
+  color: blue;
+  text-decoration: line-through;
+}
+.link3:hover {
+  color: skyblue;
+  text-decoration: underline;
+}
+.link3:active {
+  color: navy;
+}
