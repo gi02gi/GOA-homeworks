@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(248, 45, 238);
+}
+
+#name {
+    width: 135px;
+}
+
+#lastname {
+    width: 135px;
+}
+
+input {
+    height: 25px;
+    width: 280px;
+}
+
+textarea {
+    width: 280px;
+    height: 100px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 85px;
+    height: 35px;
+}
