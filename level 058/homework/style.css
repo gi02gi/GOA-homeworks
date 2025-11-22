@@ -1,0 +1,28 @@
+/* height: 100vh - სიმაღლე მთლიან ეკრანს იკავებს
+width: 100% - სიგანე მშობლის სიგანეს იკავებს 
+flexbox - გვეხმარება ვაკონტროლოთ ელემენტების განლაგება.*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .container {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f0f0f0;
+  }
+
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    font-size: 20px;
+    border-radius: 10px;
+  }

@@ -1,0 +1,34 @@
+/* box layout - ელემენტის შრეების სისტემა, რომელიც ყუთის სახით შეგვიძლია წარმოვიდგინოთ, რომელსაც
+რამდენიმე შრე აქვს.სულ გვაქვს 4 შრე
+
+1) content - ელემენტის შიგთავსი
+2) padding - შრე ელემენტის შიგთავსსა და border ს შორის
+3) border - ელემენტის ჩარჩო რომელიც არის padding სა და margin ს შორის
+4) margin - ელემენტის ბოლო, გარეთა შრე*/
+
+body {
+            background: #fafafa;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .card {
+            background: white;
+            width: 300px;
+            padding: 20px;
+            margin: 0;
+            border-radius: 12px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            padding: 10px;
+            background: #f3f3ff;
+            border-radius: 6px;
+        }
