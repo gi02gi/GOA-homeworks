@@ -1,0 +1,18 @@
+/* მეხუთე დავალება */
+div {
+  color: blue;
+  background-color: lightblue;
+  font-size: 18px;
+}
+
+.class {
+  color: green;
+  background-color: #90ee90;
+  font-size: 20px;
+}
+
+#one {
+  color: red;
+  background-color: pink;
+  font-size: 22px;
+}

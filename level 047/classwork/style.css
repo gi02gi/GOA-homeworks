@@ -1,0 +1,32 @@
+button {
+    color: rgb(230, 220, 155);
+    background-color: rgb(160, 120, 75);
+    text-align: center;
+}
+
+.button {
+    color: #0000ff;
+    background-color: #00ffff;
+    text-align: right;
+}
+
+#id1 {
+    background-color: lightgreen; 
+    color: black;
+}
+
+#id2 {background-color: lightcoral; 
+    color: white;
+}
+
+#id3 {background-color: lightblue; 
+    color: black;
+}
+
+#id4 {background-color: violet; 
+    color: white;
+}
+
+#id5 {background-color: gray; 
+    color: white;
+}

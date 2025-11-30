@@ -1,0 +1,28 @@
+body {
+    background-color: greenyellow;
+}
+
+form {
+    width: 400px;
+    height: 400px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+input {
+    width: 360px;
+    height: 25px;
+}
+
+textarea {
+    width: 360px;
+    height: 60px;
+}
+
+button {
+    width: 360px;
+    height: 25px;
+    background-color: greenyellow;
+    color: white;
+    border: none;
+}

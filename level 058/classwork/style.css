@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center; 
+  padding: 20px;
+}

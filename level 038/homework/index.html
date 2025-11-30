@@ -1,0 +1,44 @@
+<!-- პირველი დავალება -->
+<!-- Inline CSS — სტილი იწერება პირდაპირ თეგში style ატრიბუტით. -->
+<!-- Internal CSS — სტილი იწერება <style> ტეგში, <head> ნაწილში. -->
+<!-- Inline მოქმედებს მხოლოდ ერთ ელემენტზე.  -->
+<!-- Internal მოქმედებს მთელ გვერდზე არსებულ ყველა იმ ელემენტზე რომელსაც მივუთითებთ. -->
+
+<!-- მეორე დავალება -->
+<!-- <style> ტეგი გამოიყენება CSS წესების ჩასაწერად, რომლითაც ვსტილავთ HTML ელემენტებს. -->
+<!-- <head> თეგში ვწერთ იმიტომ რომ ეს ბრაუზერს აწვდის ინფორმაციას თუ როგორ გასტილოს 
+მითითებული ელემენტები და საიტზე არ ჩნდება. -->
+
+<!-- მესამე დავალება -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lightyellow;
+            text-align: center;
+        }
+        h1 {
+            color: blue;
+            font-size: 40px;
+        }
+        p {
+            color: darkred;
+            font-size: 20px;
+        }
+        button {
+            background-color: lightgreen;
+            color: black;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>მოგესალმებით!</h1>
+    <p>ეს არის მარტივი საიტი internal CSS-ით.</p>
+    <button>დააჭირე აქ</button>
+</body>
+</html>

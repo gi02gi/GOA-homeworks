@@ -1,0 +1,16 @@
+/* list-style-type - გამოიყენება იმისთვის, რომ მიუთითოთ სიის ელემენტების მარკერის ტიპი. */
+/* list-style-position - განსაზღვრავს, სიის მარკერი სად იქნება განთავსებული,ტექსტთან ერთად თუ მის გარეთ. */
+/* list-style-image - სიის მარკერის ნაცვლად იქნება სურათი */
+#div1 {
+    width: 200px;
+    height: 100px;
+    background-color: skyblue;
+}
+
+#ul1 li {
+    background-color: aqua;
+}
+
+#ul2 li {
+    background-color: rgb(241, 223, 197);
+}
