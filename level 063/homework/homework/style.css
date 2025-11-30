@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  rgb(241, 231, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+main {
+    border-radius: 10px;
+    width: 600px;
+    height: 480px;
+    display: flex;
+    background-color: white;
+}
+
+img {
+    width: 300px;
+    height: 480px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.maindiv p, button{
+    margin: 20px;
+}
+
+
+.perfume {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.childdiv {
+    display: flex;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 900;
+    color: hsl(158, 42%, 18%);
+}
+
+button {
+    width: 270px;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: white;
+}
+
+button:hover {
+    background-color: hsl(158, 42%, 18%);
+}
+
+.line {
+    text-decoration: line-through;
+}
