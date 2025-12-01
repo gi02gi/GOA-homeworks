@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(118, 161, 255, 0.585);
+}
+
+.container{
+    display: flex;
+    margin-top: 15%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 700px;
+    height: 500px;
+}
+
+.first-div{
+    flex-wrap: wrap;
+    display: block;
+    text-align: center;
+    background: rgb(78, 32, 202);
+    border-radius: 15px;
+    width: 350px;
+    height: 500px;
+}
+
+.six-seven{
+    border-radius: 50%;
+    margin-left: 100px;
+    background: rgba(75, 34, 188, 0.989);
+    width: 150px;
+    height: 150px;
+}
+
+.h-2{
+    line-height: 100px;
+    color: rgb(201, 194, 255);
+}
+
+.h-1{
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+.seven-six-h1{
+    font-size: 60px;
+    line-height: 100px;
+    color: white;
+}
+
+.p-1{
+    line-height: 10px;
+    color: rgba(201, 194, 255, 0.873);
+}
+
+.p-2{
+    margin-left: 70px;
+    margin-top: 40px;
+    color: rgba(201, 194, 255, 0.795);
+    width: 240px;
+    font-size: 17px;
+}
+
+.sum-p{
+    margin-left: 30px;
+    margin-top: 32px;
+    font-size: 30px;
+}
+.sum-box{
+    justify-content: center;
+}
+
+
+span{
+    margin-left: 26px;
+    text-align: center;
+}
+
+
+
+.s-1{
+    color: red;
+}
+
+.s-2{
+    color: rgba(129, 129, 78, 0.285);
+}
+
+.s-3{
+    color: green;
+}
+
+.react{
+    background-color: rgba(255, 187, 195, 0.681);
+    border-radius: 15px;
+    margin-left: 28px;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+    text-align: center;
+
+
+}
+
+.meno{
+    background-color: rgb(255, 226, 191);
+    border-radius: 15px;
+    margin-left: 28px;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+.ver{
+    background-color: rgb(204, 255, 236);
+    border-radius: 15px;
+    margin-left: 28px;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px; 
+}
+
+.vis{
+    background-color: rgb(194, 194, 249);
+    border-radius: 15px;
+    margin-left: 28px;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+.b-1{
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: rgb(48, 59, 89);
+}
