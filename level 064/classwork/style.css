@@ -1,0 +1,53 @@
+/* position: static; 
+ელემენტი არის სტატიკურად, მისის გადააგდილება არ შეგვიძლია */
+
+/* position: relative; 
+შეგვიძლია გადავაადგილოთ ელემენტი x და y ღერძზე საწყისი (0;0) კოორდინატიდან */
+
+/* position: absolute; 
+შეგვიძლია გადავაადგილოთ ელემენტი x და y ღერძზე საწყისი მშობელი ელემენტის (0;0) კოორდინატიდან */
+
+/* position: fixed; 
+ელემენტი ერთ ადგილზე იქნება ყოველთვის ასქროლვისას */
+
+/* position: sticky; 
+შეგვიძლია ასქროლვისას რაღაც კონკრეტულ პოზიციაზე დაყენდეს ელემენტი */
+
+.div1 {
+    width: 200px;
+    height: 200px;
+    background: lightblue;
+    border: 2px solid #333;
+    border-radius: 10px;
+    position: relative;   
+    top: 100px;          
+    left: 100px;         
+}
+
+.div2 {
+    width: 180px;
+    height: 180px;
+    background: orange;
+    border-radius: 12px;
+    border: 3px solid #444;
+    position: absolute;   
+    top: 230px;        
+    right: 140px;         
+}
+
+.div3 {
+    width: 180px;
+    height: 180px;
+    background: #4caf50;
+    border-radius: 12px;
+    border: 3px solid #2e7d32;
+    position: fixed;   
+    top: 50px;       
+    left: 50px;     
+}   
+
+.div4 {
+    width: 500px;
+    height: 500px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8049vF5CM6qxHeO03yBmthULt6ALhhhKWTVyX4_YrVJKc30Y-4Szo1L83poBVjrw4bY&usqp=CAU);
+}
