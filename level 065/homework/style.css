@@ -1,0 +1,35 @@
+/* transform არის CSS კუთვნილება, რომელიც საშუალებას გვაძლევს ელემენტი ვიზუალურად შევცვალოთ */
+/* translate - ელემენტის გადაადგილება X და Y ღერძზე */
+/* scale - ელემენტის ზომის გაზრდა ან შემცირება */
+/* rotate - ელემენტის მობრუნება გრადუსებით */
+/* skew - ელემენტის დახრა */
+
+/* transition არის CSS კუთვნილება, რომელიც გვაძლევს საშუალებას ვაკონტროლოთ ელემენტის ცვლილების დრო */
+/* transition-duration - რამდენ ხანში მოხდეს ცვლილება */
+/* transition-timing-function - განსაზღვრავს ცვლილების სიჩქარის ტიპს */
+/* transition-delay - რამდენი ხნის შემდეგ დაიწყოს ცვლილება */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+img {
+    width: 300px;
+    border: 10px solid red;
+    transition: 1s 1s ease;
+}
+
+img:hover {
+    transform: scale(1.1)
+}
