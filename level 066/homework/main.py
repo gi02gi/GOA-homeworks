@@ -26,6 +26,11 @@ def hero(bullets, dragons):
         return False
 
 
+#4
+def type_validation(variable, _type): 
+    return _type in str(type(variable))
+
+
 # 5
 def odd_count(n):
     return n // 2
