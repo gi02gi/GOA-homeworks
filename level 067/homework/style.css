@@ -1,0 +1,23 @@
+/* grid არის განლაგების სისტემა, რომელიც საშუალებას გვაძლევს განვალაგოთ ელემენტები ჰორიზონტალურ და ვერტიკალურ ღერძზე. */
+/* display: grid; - გრიდის გააქტიურება
+grid-template-columns: - სვეტების შექმნა
+grid-template-rows - რიგების შექმნა  */
+/* 1fr არის ერთეული (fraction), რომელიც ნიშნავს თავისუფალი სივრცის ერთ ნაწილს. 
+500px, 190px, 33px*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: repeat(2, 80px);
+    gap: 15px;
+}
+
+.grid div {
+    background: #4a4a4a;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
