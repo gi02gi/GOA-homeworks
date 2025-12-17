@@ -20,10 +20,7 @@ def final_grade(exam, projects):
 
 # 3
 def hero(bullets, dragons):
-    if bullets >= dragons*2:
-        return True
-    else:
-        return False
+    return bullets >= dragons*2
 
 
 #4

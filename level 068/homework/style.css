@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 5fr 10fr 10fr;
+    grid-template-rows: 2fr 8fr 2fr;
+}
+
+.parent div {
+    background-color: rgb(75, 224, 75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    grid-area: 1 / 1 / 3 / -1;
+}
+
+.bar {
+    grid-area: 3 / 1 / 18 / 2;
+}
+
+.con1 {
+    grid-area: 3 / 2 / 11 / -1;
+}
+
+.con2 {
+    grid-area: 11 / 2 / 18 / 3;
+}
+
+.con3 {
+    grid-area: 11 / 3 / 18 / -1;
+}
+
+.footer {
+    grid-area: 18 / 1 / 25 / -1;
+}
