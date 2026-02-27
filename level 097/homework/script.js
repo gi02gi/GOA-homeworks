@@ -15,3 +15,10 @@ const btn2 = document.getElementById('btn2')
 btn2.addEventListener('click', () => {
     div.innerHTML == div.style.color.random
 })
+
+const p2 = document.getElementById('p2')
+const btn3 = document.getElementById('btn3')
+btn3.addEventListener('mouseover', () => {
+    p2.innerHTML += 'giorgi'
+})
+
