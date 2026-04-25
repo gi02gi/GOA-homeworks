@@ -25,7 +25,6 @@ body{
 
 .first-div{
     flex-wrap: wrap;
-    display: block;
     text-align: center;
     background: rgb(78, 32, 202);
     border-radius: 15px;
@@ -77,6 +76,7 @@ body{
     margin-top: 32px;
     font-size: 30px;
 }
+
 .sum-box{
     justify-content: center;
 }
